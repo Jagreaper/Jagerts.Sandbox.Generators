@@ -1,0 +1,12 @@
+<Project>
+	<PropertyGroup>
+		<BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+		<OutputPath>$(MSBuildThisFileDirectory)bin\$(Configuration)\$(MSBuildProjectName)\</OutputPath>
+		
+        <TargetFrameworks>net7.0;</TargetFrameworks>
+		<LangVersion>preview</LangVersion>
+		<Nullable>enable</Nullable>
+	
+		<Authors>James Grant</Authors>
+	</PropertyGroup>
+</Project>
